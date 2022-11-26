@@ -9,9 +9,8 @@ const Picked = () => {
         <>
             <Header />
             <Box className="table-container" >
-                <Grid className="grid-container" container spacing={2}>
-                    <Grid item xs={5} style={{display:"flex", flexDirection: "column", justifyContent: "center"}}>
-                        <h4 className="table-heading">Pick 3-7 batsman</h4>
+                <Grid className="grid-container">
+                    <Grid item style={{display:"flex", flexDirection: "column", justifyContent: "center"}}>
                         <div className="player-list">
                             <div>Player1</div>
                             <div>Credit<br />{getCreditsList[0]}</div>
